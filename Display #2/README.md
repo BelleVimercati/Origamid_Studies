@@ -1,4 +1,4 @@
-# Exercício de Display
+# DESCRIÇÃO DO EXERCÍCIO
 
 O exercício consistia em reproduzir um modelo a partir das seguintes definições:
 
