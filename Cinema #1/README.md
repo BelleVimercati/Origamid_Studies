@@ -1,4 +1,4 @@
-##DESCRIÇÃO DO EXERCÍCIO
+# DESCRIÇÃO DO EXERCÍCIO
 
 1 - Crie um projeto chamado cinema.
 
