@@ -26,6 +26,8 @@
   font-size: 1.5rem;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .introducao img{
@@ -38,36 +40,12 @@
   line-height: 1.125; /* line-heigh do figma / tamanho da tipografia */
   font-size: 64px;
   margin-bottom: 32px;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .titulo span {
     color:#FFBB00;
-}
-
-.introducao a{
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.33;
-    padding: 16px 32px;
-    border-radius: 5px;
-    gap: 10px;
-    background: linear-gradient(#FFBF00, #F2A50C);
-    color: #320;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
-}
-
-.introducao a:hover{
-    background: linear-gradient(#ffb60d, #e59317);
-}
-
-
-@media (max-width: 600px) {
-  .introducao a{
-    padding: 12px 16px;
-    font-size: 16px;
-  }
 }
 
 
