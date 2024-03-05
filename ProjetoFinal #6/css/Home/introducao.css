@@ -1,7 +1,7 @@
 .introducao-bg {
-  background-color: #000;
-  color: #ffffff;
-  box-shadow: inset 0px -120px #ffffff;
+  background-color: var(--cor-12);
+  color: var(--cor-0);
+  box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao {
@@ -22,44 +22,31 @@
 }
 
 .introducao p {
-  color: #b2b2b2;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  color: var(--cor-5);
   margin-bottom: 20px;
-  font-family: 'Roboto';
-  font-weight: 400;
 }
 
-.introducao img{
+.introducao img {
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
 
-.titulo {
-  line-height: 1.125; /* line-heigh do figma / tamanho da tipografia */
-  font-size: 64px;
+.texto-grande {
   margin-bottom: 32px;
-  font-family: 'Poppins';
-  font-weight: 600;
 }
-
-.titulo span {
-    color:#FFBB00;
-}
-
 
 @media (max-width: 1200px) {
-  .titulo{
+  .texto-grande {
     font-size: 48px;
   }
-  .introducao p{
+  .introducao p {
     font-size: 18px;
   }
 }
 
 @media (max-width: 800px) {
-  .introducao{
+  .introducao {
     grid-template-columns: 1fr;
     gap: 32px;
   }
@@ -67,21 +54,16 @@
     padding-bottom: 0px;
     padding-top: 40px;
   }
-  .introducao-bg{
+  .introducao-bg {
     background: #111111;
-    box-shadow: inset 0px -60px #ffffff;
+    box-shadow: inset 0px -60px var(--cor-0);
   }
-  .introducao img{
+  .introducao img {
     height: 300px;
     width: 100%;
   }
-  
-  
-  .titulo{
-    font-size: 32px;
+
+  .texto-grande {
     margin-bottom: 16px;
-  }
-  .introducao p{
-    font-size: 18px;
   }
 }
