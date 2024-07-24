@@ -8,12 +8,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px; /*Tamanho do grid */
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto; /* Alinha os itens independente do tamanho da tela que esta sendo usada */
-  margin-right: auto;
 }
 
 .introducao-conteudo {
@@ -27,6 +21,7 @@
 }
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
