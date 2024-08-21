@@ -24,3 +24,6 @@
 @import './seguros/vantagens.css';
 
 @import "./termos/termos.css";
+
+/* Bicicletas */
+@import "./bicicleta/bicicleta.css"
